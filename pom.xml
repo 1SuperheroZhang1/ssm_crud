@@ -11,13 +11,13 @@
 
     <!-- 引入项目依赖的jar包 -->
     <dependencies>
-        <!-- 引入pageHelper分页插件 -->
+
+        <!-- 引入PageHelper分页插件 -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>5.0.0</version>
+            <version>5.2.0</version>
         </dependency>
-
 
         <!-- MBG -->
         <!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->

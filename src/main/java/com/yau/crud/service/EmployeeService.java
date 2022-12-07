@@ -18,6 +18,6 @@ public class EmployeeService {
      * @return
      * */
     public List<Employee> getAll(){
-        return null;
+        return employeeMapper.selectByExampleWithDept(null);
     }
 }
